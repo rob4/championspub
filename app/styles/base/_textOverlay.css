@@ -1,0 +1,192 @@
+
+  .title-text  {
+    position: realtive;
+
+
+
+    &__text-content {
+      position: absolute;
+      top: 30%;
+      transform: translateY(-20%);
+      left: 0;
+      width: 100%;
+      text-align: center;
+    }
+
+
+
+
+      &__title {
+        text-transform: uppercase;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400rem;
+        margin: 0.6rem;
+        color: #fff;
+        text-shadow: 1px 1px 4px #000;
+
+
+        @mixin atSmall {
+        font-size: 2.2rem;
+
+        }
+
+        @mixin atMedium {
+        font-size: 4.8rem;
+
+        }
+
+        @mixin atLarge {
+          font-size: 1.1;
+        }
+
+
+
+
+
+
+    }
+
+    &__subtitle {
+      text-transform: capitalize;
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.5rem;
+      margin: 0.6px;
+      color: #fff;
+      text-shadow: 1px 1px 4px #000;
+
+/* media queries */
+
+
+      @mixin atSmall {
+        font-size: 1.5rem;
+      }
+
+      @mixin atMedium {
+        font-size: 2.5rem;
+      }
+      @mixin atLarge {
+      font-size: 1.5rem;
+      }
+
+
+
+    }
+
+    &__wel {
+      font-size: 1.8rem;
+      color: yellow;
+      text-shadow: 1px 1px 4px #000;
+      font-family: 'Petit Formal Script', cursive;
+      margin: 0.6rem;
+
+      @mixin atSmall {
+        font-size: 2.2rem;
+      }
+
+      @mixin atMedium {
+      font-size: 3.8rem;
+      }
+
+      @mixin atLarge {
+      font-size: 2.5rem;
+      }
+
+  }
+
+}
+
+
+
+
+/* contianer for darts and prem info */
+
+.flex-wrapper {
+  box-sizing: border-box;
+  padding-top: 20px;
+  margin:0 auto;
+}
+
+.container-index {
+display: flex;
+padding-top: 20px;
+justify-content: center;
+flex-grow: 1;
+flex-wrap: wrap;
+
+}
+
+.box {
+flex-basis: auto;
+flex: 1 1 0;
+@mixin atSmall {
+  font-size: 1.6rem;
+  justify-content: center;
+}
+
+@mixin atMedium {
+  font-size: 1.5rem;
+}
+
+@mixin atLarge {
+  font-size: 1.2rem;
+}
+}
+
+.darts-img {
+  background: blue;
+
+}
+
+.dartboard-img {
+  padding-left: 25%;
+}
+
+.prem-pic {
+background: magenta;
+box-sizing: border-box;
+
+
+}
+
+.prem-text {
+  background: orange;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+.epl-link {
+  color: red;
+}
+
+/* darts column */
+
+
+
+.darts-text {
+  background: purple;
+  box-sizing: border-box;
+  padding: 20px;
+
+}
+
+.menu-text {
+  background: yellow;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* bottom: 100px; */

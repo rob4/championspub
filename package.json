@@ -1,0 +1,36 @@
+{
+  "name": "championspub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "npm install jquery --save"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.12",
+    "normalize.css": "^7.0.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.11",
+    "epl-fixtures-cli": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-css-rebase-urls": "0.0.5",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-watch": "^4.3.11",
+    "node-sass": "^4.5.3",
+    "postcss-import": "^10.0.0",
+    "postcss-mixins": "^6.0.0",
+    "postcss-nested": "^2.0.2",
+    "postcss-simple-vars": "^4.0.0",
+    "soccerama": "^2.0.1"
+  }
+}

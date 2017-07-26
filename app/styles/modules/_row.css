@@ -1,0 +1,48 @@
+.row {
+  background-color: blue;
+
+}
+
+.col__1 {
+  padding: 20px;
+  flex: 1;
+  background-color: #fff;
+}
+
+.col__2{
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #000;
+  flex: 1;
+}
+
+@mixin felx {
+  .row {
+    display:flex;
+    justify-content: space-between;
+  }
+}
+
+.menu-tax {
+  text-align: center;
+
+}
+
+
+
+.epl-container{
+  background-color:#fff;
+  display:flex;
+}
+
+.epl-pic {
+  flex: 1;
+}
+
+.epl {
+  flex: 1;
+  background-color: #000;
+  @mixin TextSum {
+    font-size: 2.5rem;
+  }
+}

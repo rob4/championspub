@@ -1,0 +1,26 @@
+.menu-table1 {
+  background-color: #fff;
+}
+
+.menu-table1 td {
+  background-color: #fff;
+  text-transform: capitalize;
+  border-collapse: collapse;
+
+
+}
+.snack-title{
+  color: #fff;
+  text-align: center;
+}
+.menu-snack {
+color: #fff;
+}
+
+.price {
+  text-align: right;
+  border-bottom: 1px solid black
+}
+.dishName {
+  border-bottom: 1px solid black;
+}

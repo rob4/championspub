@@ -1,0 +1,32 @@
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 100%;
+}
+
+
+.content {
+  flex: 1 0 auto;
+  min-height: 100vh;
+}
+
+/* keeps main welcome picture centered */
+.imgHead {
+ width: 100%;
+ height:100vh;
+
+  overflow: hidden;
+  object-fit: cover;
+
+}
+
+
+/*.prem {
+  position: relative;
+  transform: translateY(20%);
+  background-color: #fff;
+
+
+
+
+}
+*/
