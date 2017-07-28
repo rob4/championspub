@@ -109,8 +109,6 @@
 .container-index {
 display: flex;
 padding-top: 20px;
-justify-content: center;
-flex-grow: 1;
 flex-wrap: wrap;
 
 }
