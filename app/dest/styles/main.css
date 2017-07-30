@@ -376,6 +376,10 @@ padding-top: 20px;
 }.box {
 -ms-flex-preferred-size: auto;
     flex-basis: auto;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
 -webkit-box-flex: 1;
     -ms-flex: 1 1 0px;
         flex: 1 1 0;
@@ -392,51 +396,50 @@ padding-top: 20px;
   font-size: 1.2rem
 }
   }.darts-img {
-  background: blue;
+
 
 }.dartboard-img {
-  padding-left: 25%;
+padding-left: 25%;
 }.prem-pic {
-background: magenta;
+padding: 10px;
 -webkit-box-sizing: border-box;
         box-sizing: border-box;
 
 
 }.prem-text {
-  background: orange;
+
   text-align: center;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 20px;
 }.epl-link {
-  color: red;
+
 }/* darts column */.darts-text {
-  background: purple;
+
   -webkit-box-sizing: border-box;
+
           box-sizing: border-box;
   padding: 20px;
 
 }.menu-text {
-  background: yellow;
+
   -webkit-box-sizing: border-box;
+
           box-sizing: border-box;
   padding: 20px;
 }/* bottom: 100px; */html {
   font-family: 'Roboto', sans-serif;
   font-size: 100%;
+    margin: 0 auto;
+
+}body {
+  background-color: #f7f7f4;
+
 }.content {
   -webkit-box-flex: 1;
       -ms-flex: 1 0 auto;
           flex: 1 0 auto;
   min-height: 100vh;
-}/* keeps main welcome picture centered */.imgHead {
- width: 100%;
- height:100vh;
-
-  overflow: hidden;
-  -o-object-fit: cover;
-     object-fit: cover;
-
 }/*.prem {
   position: relative;
   transform: translateY(20%);
@@ -447,10 +450,12 @@ background: magenta;
 
 }
 */.footer {
-position: relative;
-bottom: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 width: 100%;
 background-color: #000;
+text-align: center;
+padding: 10px;
 }.footer-text {
   color: #fff
 }.main-wrapper {
@@ -580,7 +585,7 @@ padding: 10px;
 
 }.menu-body {
 margin: 0 auto;
-background-color: yellow;
+background-color: #f7f7f4;
 
 }.menu-flex-container {
 
@@ -634,4 +639,24 @@ background-color: yellow;
   font-weight: bold;
   font-family: arial;
   margin-top: -22px;
+}/* keeps main welcome picture centered */.imgHead {
+ width: 100%;
+ height:100vh;
+
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+
+}.full-eng {
+ width: 100%;
+ height: 200px;
+
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-bottom: 15px solid black;
+}.beer-img {
+  padding-left: 25%;
 }
